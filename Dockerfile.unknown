@@ -8,6 +8,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Instalar cualquier otro paquete necesario especificado en requirements.txt
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8000
