@@ -1,0 +1,7 @@
+streamlit
+pickle
+
+pycaret == 3.3.2
+pandas == 2.1.4
+numpy == 1.26.4
+re == 2.2.1
